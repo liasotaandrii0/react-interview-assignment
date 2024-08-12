@@ -28,6 +28,25 @@ If you have any questions regarding the assignment you can contact [lasse@bluebi
 
 Good luck! 🙂
 
+## Features
+
+- **User List**: The homepage displays a list of users in an accordion format. Each accordion contains:
+  - A link with the user's first name that redirects to the user's profile page.
+  - A panel that, when expanded, displays:
+    - User's first name
+    - User's last name
+    - User's email
+    - User's profile photo on the left side
+
+- **User Profile Page**: Clicking on a user's first name in the list redirects to the `/profile/{id}` route, where `{id}` is the user's unique ID. The profile page displays the selected user's information.
+
+## Technology Stack
+
+- **Next.js**: Utilized for routing and overall project structure.
+- **Chakra UI**: Used for styling components, ensuring a responsive and visually appealing design.
+- **TanStack Query**: Employed for efficient data fetching and caching from the API.
+- **TypeScript**: Provides type safety and improved developer experience.
+
 ### Requirements
 1. On the [/](/) route create a list of accordions displaying the information from the public API https://reqres.in/api/users. If needed, you can query the information for a single user on https://reqres.in/api/users/{id}.
 
